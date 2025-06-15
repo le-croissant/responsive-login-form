@@ -15,8 +15,10 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100dvh;
 
+    @media screen and (min-width: 720px) {
+        min-height: 100dvh;
+    }
 }
 
 /* Form styles */
